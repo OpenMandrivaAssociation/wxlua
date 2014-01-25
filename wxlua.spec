@@ -8,6 +8,7 @@ License:	wxWidgets License
 Group:		Development/Other
 Url:		http://wxlua.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/wxlua/%{oname}-%{version}-src.tar.gz
+BuildRequires:	cmake
 BuildRequires:	librsvg
 BuildRequires:	pkgconfig(lua)
 BuildRequires:	wxgtku2.8-devel
