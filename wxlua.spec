@@ -68,10 +68,10 @@ rm -rf %{buildroot}%{_prefix}/doc
 rm -rf %{buildroot}%{_includedir}
 rm -rf %{buildroot}%{_datadir}/wxstedit
 rm -rf %{buildroot}%{_datadir}/wxlua/*.cmake
-rm -rf %{buildroot}%{_libdir}/*.a
+rm -rf %{buildroot}%{_prefix}/lib/*.a
 
 mkdir -p %{buildroot}%{_libdir}/lua/5.1/
-mv %{buildroot}%{_libdir}/libwx.so %{buildroot}%{_libdir}/lua/5.1/wx.so
+mv %{buildroot}%{_prefix}/lib/libwx.so %{buildroot}%{_libdir}/lua/5.1/wx.so
 
 # Install icons of various sizes
 for s in 256 128 96 48 32 22 16 ; do
