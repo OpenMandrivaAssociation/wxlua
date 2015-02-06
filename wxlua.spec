@@ -3,7 +3,7 @@
 Summary:	wxWidgets bindings for Lua
 Name:		wxlua
 Version:	2.8.12.3
-Release:	2
+Release:	3
 License:	wxWidgets License
 Group:		Development/Other
 Url:		http://wxlua.sourceforge.net/
