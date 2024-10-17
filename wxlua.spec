@@ -6,7 +6,7 @@ Version:	2.8.12.3
 Release:	3
 License:	wxWidgets License
 Group:		Development/Other
-Url:		http://wxlua.sourceforge.net/
+Url:		https://wxlua.sourceforge.net/
 Source0:	http://downloads.sourceforge.net/wxlua/%{oname}-%{version}-src.tar.gz
 BuildRequires:	cmake
 BuildRequires:	librsvg
